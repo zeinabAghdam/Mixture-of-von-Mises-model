@@ -1,0 +1,8 @@
+
+*.pdf
+*.lyx
+*.lyx~
+*.emergency
+*.eps
+*.fig
+*.mat
