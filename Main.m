@@ -18,7 +18,6 @@ global M
 global k
 global continuousUniformEntropy
 
-
 iteration_size = 500;
 concSubjects= cell(10,length(50:5:100));
 muRad = cell(10,length(50:5:100));
@@ -107,9 +106,8 @@ for subj = 1:1
         %plot1- plot the histogram of data with the approximated distribution. 
         %subplot(2,5,subj),
         %plotHistFig(jointDist,Xrad);
-        
-%             
-%         % plot clustered data - Different clusters
+                   
+%        % plot clustered data - Different clusters
          % figure, [cluster_ratio] = plotClusteredFig(cluster_likelihood,Xrad);
 %        
         
