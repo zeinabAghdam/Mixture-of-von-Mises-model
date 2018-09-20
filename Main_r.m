@@ -25,5 +25,5 @@ defaultM = M;
 % First initializations of the mu, kappa, and functions
 % likelihood.
 M = defaultM;
-[vMu,vKappa,vAlpha] = InitializeParameters(M, X);
+[vMu,vKappa,vAlpha] = InitializeParameters(M, Xrad);
 [vMu,vKappa,vAlpha, assignments] = fitMixtureOfMVonMisesFisher(M, X, vMu, vKappa, vAlpha);
